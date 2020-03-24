@@ -1,0 +1,47 @@
+#nav-bar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.e{
+    display: inline-block;
+    padding-right: 30px;
+}
+input{
+    width: 400px;
+}
+button{
+    width: 50px;
+}
+img{
+    width: 150px;
+    height: 70px;
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+
+}
+#box{
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#box1{
+    flex-grow: 2;
+}
+#box2{
+    flex-grow: 1;
+    background-color: brown;
+}
+iframe{
+    padding-left: 60px;;
+}
+h3{
+    font: 18px Roboto Ariel sans-serif;
+    padding-left: 58px;
+}
+h{
+    font: 14px sans-serif;
+}

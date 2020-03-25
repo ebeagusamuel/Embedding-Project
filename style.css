@@ -58,7 +58,7 @@ button {
 }
 #box2 {
   flex-grow: 1;
-  background-color: brown;
+  
 }
 iframe {
   padding-left: 60px;
@@ -100,5 +100,5 @@ aside{
 .aside-thumbnails {
        
         padding: 5px; /* Some padding */
-        width: 200px; /* Set a small width */
+        width: 200px; 
       }

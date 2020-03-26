@@ -15,8 +15,9 @@
   font-size: 25px;
 }
 input {
-  width: 400px;
+  width: 600px;
 }
+
 #search-btn {
   width: 50px;
 }
@@ -36,7 +37,7 @@ input {
   margin-top: 15px;
   margin-bottom: 10px;
   height: 20px;
-}
+  }
 
 .icons {
   margin-top: 15px;
@@ -61,15 +62,22 @@ iframe {
 }
 h3 {
   font: 18px Roboto Ariel sans-serif;
-  padding-left: 58px;
+  
 }
-h {
+
+.h {
   font: 14px sans-serif;
+  display: flex;
+
+}
+
+.g {
+    margin: 10px;
+    margin-top: 2px;
 }
 
 .bottom-icons {
   display: flex;
-  padding-right: 400px;
 }
 
 #Avatar {
@@ -101,6 +109,32 @@ h {
   width: 200px;
 }
 
+h4 {
+    font: 16px sans-serif;
+    font-weight: 400;
+}
+
+#sidebar-autoplay{
+    font: 12px sans-serif;
+    font-weight: 400;
+}
+
+#sidebar-top, #sidebar-autoplay{
+    display: flex;
+    justify-content: space-between;
+}
+
+.aside-thumbnails-text {
+    display: flex;
+    font: 14px sans-serif;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.inside-thumbnails-text {
+    font-size: 12px;
+}
+
 #comments-section {
   display: flex;
   justify-content: space-between;
@@ -114,6 +148,12 @@ h {
     color: azure;
 }
 
+h2,h3 {
+    font: 16px sans-serif;
+    font-weight: 400;
+    font-size: larger;
+}
+
 .user-info{
     line-height: 35px;
 }
@@ -124,6 +164,8 @@ h {
 
 .user-info p{
     margin-left: 4.9rem;
+    font: 16px sans-serif;
+    line-height: 35px;
 }
 
 .num-of-subscribers{

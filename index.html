@@ -19,11 +19,10 @@
         <img class="image-logo" src="img/logo3.jpg" />
       </div>
       <div class="search-bar">
-        <input type="text" placeholder="Search" />
-        <button id="search-btn">
-          <i class="fas fa-search"></i>
-        </button>
-      </div>
+        <input type="text" placeholder="Search" /><button id="search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+     </div>
       <div class="icons">
         <span><i class="fas fa-video "></i></span>
         <span><i class="fas fa-th "></i></span>
@@ -43,24 +42,24 @@
         ></iframe>
         <h3 id="">Learn JavaScript- Full Course for Beginners</h3>
         <div style="display: flex; justify-content: space-between;">
-          <h2 style="padding-left: 58px; font: 14px sans-serif;">
+          <h2 style="font: 14px sans-serif;">
             2,963,622 views Dec 10 2018
           </h2>
           <div class="bottom-icons">
-            <div class="h"><i class="fas fa-thumbs-up"></i>57k</div>
-            <div class="h"><i class="fas fa-thumbs-down"></i>729</div>
-            <div class="h"><i class="fas fa-share"></i>SHARE</div>
-            <div class="h"><i class="fas fa-download"></i>SAVE</div>
-            <div class="h"><i class="fas fa-ellipsis-h"></i></div>
+            <div class="h"><i class="fas fa-thumbs-up g"></i>57k</div>
+            <div class="h"><i class="fas fa-thumbs-down g"></i>729</div>
+            <div class="h"><i class="fas fa-share g"></i>SHARE</div>
+            <div class="h"><i class="fas fa-download g"></i>SAVE</div>
+            <div class="h"><i class="fas fa-ellipsis-h g"></i></div>
           </div>
         </div>
         <hr />
         <div id="comments-section">
           <div class="user-info">
             <img id="Avatar" src="img/avatar.png" alt="Avatar" />
-            <h3>
+            <h2>
               The Odin Project<p class="num-of-subscribers">942 Subscribers</p>
-            </h3>
+            </h2>
             <p>
               How do you contribute to open source? In this video, I'll describe
               the easiest way to make a simple contribution to an open source
@@ -75,41 +74,47 @@
             </p>
             <p>SHOW MORE</p>
           </div>
-
           <div>
             <button id="subscribe-btn">SUBSCRIBE</button>
           </div>
-        </div>
+        </div><hr/>
       </section>
       <aside id="sidebar">
+         <div id="sidebar-top"> 
         <h4>Up next</h4>
-        <p>Autoplay</p>
-        <i class="fa fa-toggle-on" aria-hidden="true"></i>
-        <div>
+        <span id="sidebar-autoplay"><p>AUTOPLAY</p>
+        <i class="fa fa-toggle-on" aria-hidden="true" style="font-size: 25px;"></i></span>
+    </div>
+        <div class="aside-thumbnails-text">
           <img class="aside-thumbnails" src="img/thumbnail1.jpg" alt="" />
-          <p>This is the title</p>
-          <p>1.2M views . 3 months ago</p>
+          <span><p class="thumbnails-text-headers"><strong>JavaScript-tutorial for beginners. Learn JavaScript in ...</strong></p>
+            <span class="inside-thumbnails-text"><p>Programming with Mosh</p>
+          <p>2.M views . 3 months ago</p></span></span>
         </div>
         <hr />
-        <div>
+        <div class="aside-thumbnails-text">
           <img class="aside-thumbnails" src="img/thumbnail2.jpg" alt="" />
-          <p>This is the title</p>
-          <p>1.2M views . 3 months ago</p>
+          <span><p class="thumbnails-text-headers"><strong>Flexbox Tutorial - CSS. Real layout examples.</strong></p>
+           <span class="inside-thumbnails-text"><p>LearnWebCode</p>
+          <p>1M views . 6 months ago</p></span></span>
         </div>
-        <div>
+        <div class="aside-thumbnails-text">
           <img class="aside-thumbnails" src="img/thumbnail3.jpg" alt="" />
-          <p>This is the title</p>
-          <p>1.2M views . 3 months ago</p>
+          <span><p class="thumbnails-text-headers"><strong>Learn JavaScript in 12 minutes</strong></p>
+            <span class="inside-thumbnails-text"><p>Jake Wright</p>
+          <p>707K views . 3 months ago</p></span></span>
         </div>
-        <div>
+        <div class="aside-thumbnails-text">
           <img class="aside-thumbnails" src="img/thumbnail4.jpg" alt="" />
-          <p>This is the title</p>
-          <p>1.2M views . 3 months ago</p>
+          <span><p class="thumbnails-text-headers"><strong>JavaScript Crush Course for Beginners</strong></p>
+            <span class="inside-thumbnails-text"> <p>Traversy Media</p>
+          <p>737K views . 1 year ago</p></span></span>
         </div>
-        <div>
+        <div class="aside-thumbnails-text">
           <img class="aside-thumbnails" src="img/thumbnail5.jpg" alt="" />
-          <p>This is the title</p>
-          <p>1.2M views . 3 months ago</p>
+          <span><p class="thumbnails-text-headers"><strong>HTML Crush Course for Absolute Beginners</p></strong>
+            <span class="inside-thumbnails-text"><p>Traversy Media</p>
+          <p>1.2M views . 7 months ago</p></span></span>
         </div>
       </aside>
      

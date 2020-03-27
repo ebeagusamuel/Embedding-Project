@@ -1,42 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Youtube Project</title>
-    <link rel="stylesheet" href="style.css" type="text/css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"/>
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+  </head>
+  <body>
     <nav id="nav-bar">
-        <div id="logo"><i class="fas fa-bars d"></i><img class="d" src="./img//youtubeLogo.png"/></div>
-        <div><input type="text" placeholder="Search"/><button><i class="fas fa-search"></i></button></div>
-        <div>
-            <i class="fas fa-video e"></i>
-            <i class="fas fa-th e"></i>
-            <i class="fas fa-bell e"></i>
-            <i class="fas fa-user-circle e"></i>
-        </div>
+      <div id="logo">
+        <span>
+          <i class="bar-icon fas fa-bars"></i>
+        </span>
+        <img class="image-logo" src="img/logo3.jpg" alt="logo-image" />
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search" /><button id="search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+     </div>
+      <div class="icons">
+        <span><i class="fas fa-video "></i></span>
+        <span><i class="fas fa-th "></i></span>
+        <span><i class="fas fa-bell "></i></span>
+        <span><i class="fas fa-user-circle "></i></span>
+      </div>
     </nav>
 
-    <div id="box">
-        <div id="box1">
-            <iframe width="660" height="400" src="https://www.youtube.com/embed/PkZNo7MFNFg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <h3 id="">Learn JavaScript- Full Course for Beginners </h3>
-            <div style="display: flex; justify-content: space-between;">
-                <h2 style="padding-left: 58px; font: 14px sans-serif;">2,963,622 views Dec 10 2018</h2>
-                <div style="display: flex; justify-content: space-evenly; padding-right: 400px;">
-                    <div class="h"><i class="fas fa-thumbs-up"></i>57k</div>
-                    <div class="h"><i class="fas fa-thumbs-down"></i>729</div>
-                    <div class="h"><i class="fas fa-share"></i>SHARE</div>
-                    <div class="h"><i class="fas fa-download"></i>SAVE</div>
-                    <div class="h"><i class="fas fa-ellipsis-h"></i></div>
-                </div>
-            </div>
+    <main id="main-box">
+      <section id="main-section">
+        <!-- <iframe src="" frameborder="0"></iframe> -->
+        <iframe
+          src="https://www.youtube.com/embed/PkZNo7MFNFg"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <h3>Learn JavaScript- Full Course for Beginners</h3>
+        <div style="display: flex; justify-content: space-between;">
+          <h2 style="font: 14px sans-serif;">
+            2,963,622 views Dec 10 2018
+          </h2>
+          <div class="bottom-icons">
+            <div class="section-icon"><i class="fas fa-thumbs-up inside-section-icon"></i>57k</div>
+            <div class="section-icon"><i class="fas fa-thumbs-down inside-section-icon"></i>729</div>
+            <div class="section-icon"><i class="fas fa-share inside-section-icon"></i>SHARE</div>
+            <div class="section-icon"><i class="fas fa-download inside-section-icon"></i>SAVE</div>
+            <div class="section-icon"><i class="fas fa-ellipsis-h inside-section-icon"></i></div>
+          </div>
         </div>
-        <div id="box2">
-            RightSide
-        </div>
+        <hr />
+        <div id="comments-section">
+          <div class="user-info">
+            <img id="Avatar" src="img/avatar.png" alt="Avatar" />
+            <h2>
+              The Odin Project
+            </h2>
+            <p class="num-of-subscribers">942 Subscribers</p>
+            <p>
+              How do you contribute to open source? In this video, I'll describe
+              the easiest way to make a simple contribution to an open source
+              project -- without using the command line, a text editor, "forking
+              a repo", or even touching Git outside of Github. I'll also
+              describe what kinds of contributions open source software projects
+              are typically looking for. As an example, I use submitting a
+              student solution to a web development exercise from The Odin
+              Project, a free online curriculum for learning web development
+              with Ruby on Rails. You can find more information about that
+              project at http://theodinproject.com.
+            </p>
+            <p>SHOW MORE</p>
+          </div>
+          <div>
+            <button id="subscribe-btn">SUBSCRIBE</button>
+          </div>
+        </div><hr/>
+      </section>
+      <aside id="sidebar">
+         <div id="sidebar-top"> 
+        <h4>Up next</h4>
+        <div id="sidebar-autoplay"><p>AUTOPLAY</p>
+        <i class="fa fa-toggle-on" aria-hidden="true"></i></div>
     </div>
-</body>
+        <div class="aside-thumbnails-text">
+          <img class="aside-thumbnails" src="img/thumbnail1.jpg" alt="" />
+          <div><p class="thumbnails-text-headers"><strong>JavaScript-tutorial for beginners. Learn JavaScript in ...</strong></p>
+            <p class="inside-thumbnails-text">Programming with Mosh</p>
+          <p>2.M views . 3 months ago</p></div>
+        </div>
+        <hr />
+        <div class="aside-thumbnails-text">
+          <img class="aside-thumbnails" src="img/thumbnail2.jpg" alt="" />
+          <div><p class="thumbnails-text-headers"><strong>Flexbox Tutorial - CSS. Real layout examples.</strong></p>
+           <p class="inside-thumbnails-text">LearnWebCode</p>
+          <p>1M views . 6 months ago</p></div>
+        </div>
+        <div class="aside-thumbnails-text">
+          <img class="aside-thumbnails" src="img/thumbnail3.jpg" alt="" />
+          <div><p class="thumbnails-text-headers"><strong>Learn JavaScript in 12 minutes</strong></p>
+           <p class="inside-thumbnails-text">Jake Wright</p>
+          <p>707K views . 3 months ago</p></div>
+        </div>
+        <div class="aside-thumbnails-text">
+          <img class="aside-thumbnails" src="img/thumbnail4.jpg" alt="" />
+          <div><p class="thumbnails-text-headers"><strong>JavaScript Crush Course for Beginners</strong></p>
+           <p class="inside-thumbnails-text">Traversy Media</p>
+          <p>737K views . 1 year ago</p></div>
+        </div>
+        <div class="aside-thumbnails-text">
+          <img class="aside-thumbnails" src="img/thumbnail5.jpg" alt="" />
+          <div><p class="thumbnails-text-headers"><strong>HTML Crush Course for Absolute Beginners</strong></p>
+            <p class="inside-thumbnails-text">Traversy Media</p>
+          <p>1.2M views . 7 months ago</p></div>
+        </div>
+      </aside>
+     
+    </main>
+  </body>
 </html>

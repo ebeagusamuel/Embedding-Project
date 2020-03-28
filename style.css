@@ -1,0 +1,172 @@
+body{
+  background-color: #faf9f7
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+  height: 35px;
+  }
+
+.bar-icon {  
+  font-size: 20px;
+}
+
+.icons i {
+  padding-right: 30px;
+  font-size: 18px;
+}
+
+input {
+  width: 600px;
+  height: 20px;
+}
+
+#search-btn {
+  width: 50px;
+  height: 26px;
+}
+
+.image-logo {
+  max-width: 100%;
+  width: 100px;
+}
+
+.logo span {
+  padding: 1.5rem; 
+  font-size: 25px;
+}
+
+iframe {
+  width: 100%;
+  height: 70vh;
+}
+
+h3 {
+  font: 18px Roboto Ariel sans-serif;  
+}
+
+.section-icon {
+  font: 14px sans-serif;
+  display: flex;
+  color: #606060;
+}
+
+.inside-section-icon {
+  margin: 10px;
+  margin-top: 2px;
+}
+
+.bottom-icons {
+  display: flex;
+}
+
+#Avatar {
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+}
+
+.main-box{
+  padding-top: .1rem;
+  margin: 50px 30px;
+}
+
+.main-section {
+  float: left;
+  width: 60%;
+  padding-left: 70px;
+}
+
+.sidebar {
+  float: left;
+  width: 30%;
+  padding-left: 20px;
+}
+
+.aside-thumbnails {
+  padding: 5px;
+  width: 200px;
+}
+
+h4 {
+  font: 16px sans-serif;
+  font-weight: 400;
+}
+
+#sidebar-autoplay p, 
+.sidebar h4 {
+  padding-top: 5px;
+}
+
+#sidebar-autoplay i {
+  font-size: 25px; 
+  padding-left: 15px;
+  padding-bottom: 15px;
+  margin-top: 0;
+}
+
+#sidebar-autoplay{
+  font: 12px sans-serif;
+  font-weight: 400;
+}
+
+.sidebar-top, #sidebar-autoplay{
+  display: flex;
+  justify-content: space-between;
+}
+
+.aside-thumbnails-text {
+  display: flex;
+  font: 14px sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.inside-thumbnails-text {
+  font-size: 12px;
+}
+
+.comments-section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+}
+
+#subscribe-btn{
+  padding: .5rem;
+  border: none;
+  background-color: #da3f3f;
+  color: azure;
+}
+
+h2,h3 {
+  font: 16px sans-serif;
+  font-weight: 400;
+  font-size: larger;  
+}
+
+.user-info{
+  line-height: 25px;
+}
+
+.user-info img{
+  float: left;
+}
+
+.user-info p{
+  margin-left: 4.9rem;
+  font: 14px sans-serif;
+  line-height: 35px;
+}
+
+.num-of-subscribers{
+  font-size: 10px;
+  color: #606060;
+}
+
+.thumbnails-text-headers{
+  font-weight: bolder;
+}

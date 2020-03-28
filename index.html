@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube Project</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="css-reset.css" type="text/css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="nav-bar">
+      <div class="logo">
+        <span>
+          <a href="#"><i class="bar-icon fas fa-bars"></i></a>
+        </span>
+        <a href="#"><img class="image-logo" src="img/logo3.jpg" alt="logo-image" /></a>
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search" /><button id="search-btn">
+            <i class="fas fa-search"></i>
+          </button>
+     </div>
+      <div class="icons">
+        <span><a href="#"><i class="fas fa-video "></i></a></span>
+        <span><a href="#"><i class="fas fa-th "></i></a></span>
+        <span><a href="#"><i class="fas fa-bell "></i></a></span>
+        <span><a href="#"><i class="fas fa-user-circle "></a></i></span>
+      </div>
+    </nav>
+
+    <main class="main-box">
+      <section class="main-section">
+        <iframe
+          src="https://www.youtube.com/embed/PkZNo7MFNFg"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+        <h3 style="padding-top: 10px;">Learn JavaScript- Full Course for Beginners</h3>
+        <div style="display: flex; justify-content: space-between; padding-top: 10px;">
+          <h2 style="font: 14px sans-serif; color: #606060;">
+            2,963,622 views Dec 10 2018
+          </h2>
+          <div class="bottom-icons">
+            <div class="section-icon"><i class="fas fa-thumbs-up inside-section-icon"></i>57k</div>
+            <div class="section-icon"><i class="fas fa-thumbs-down inside-section-icon"></i>729</div>
+            <div class="section-icon"><i class="fas fa-share inside-section-icon"></i>SHARE</div>
+            <div class="section-icon"><i class="fas fa-download inside-section-icon"></i>SAVE</div>
+            <div class="section-icon"><i class="fas fa-ellipsis-h inside-section-icon"></i></div>
+          </div>
+        </div>
+        <hr />
+        <div class="comments-section">
+          <div class="user-info">
+            <a href="#"><img id="Avatar" src="img/avatar.png" alt="Avatar" /></a>
+            <a href="#"><h2 style="font-weight: bolder; margin-left: 4.9rem;">Odin Project</h2></a>
+            <p class="num-of-subscribers">942 Subscribers</p>
+            <p>
+              How do you contribute to open source? In this video, I'll describe
+              the easiest way to make a simple contribution to an open source
+              project -- without using the command line, a text editor, "forking
+              a repo", or even touching Git outside of Github. I'll also
+              describe what kinds of contributions open source software projects
+              are typically looking for. As an example, I use submitting a
+              student solution to a web development exercise from The Odin
+              Project, a free online curriculum for learning web development
+              with Ruby on Rails. You can find more information about that
+              project at http://theodinproject.com.
+            </p>
+            <p style="font-weight: bold; color: #606060 ;">SHOW MORE</p>
+          </div>
+          <div>
+            <button id="subscribe-btn">SUBSCRIBE</button>
+          </div>
+        </div><hr/>
+      </section>
+
+      <aside class="sidebar">
+        <div class="sidebar-top"> 
+          <h4>Up next</h4>
+          <div id="sidebar-autoplay">
+            <p>AUTOPLAY</p>
+            <i class="fa fa-toggle-on" aria-hidden="true"></i>
+          </div>
+        </div>
+        <div class="aside-thumbnails-text">
+          <a href="#"><img class="aside-thumbnails" src="img/thumbnail1.jpg" alt="" /></a>
+          <div>
+            <a href="#"><p class="thumbnails-text-headers"><strong>JavaScript-tutorial for beginners. Learn JavaScript in ...</strong></p></a>
+            <a href="#"><p class="inside-thumbnails-text">Programming with Mosh</p></a>
+            <a href="#"><p>2.M views . 3 months ago</p></a>
+          </div>
+        </div>
+        <hr />
+        <div class="aside-thumbnails-text">
+          <a href="#"><img class="aside-thumbnails" src="img/thumbnail2.jpg" alt="" /></a>
+          <div>
+            <a href="#"><p class="thumbnails-text-headers"><strong>Flexbox Tutorial - CSS. Real layout examples.</strong></p></a>
+            <a href="#"><p class="inside-thumbnails-text">LearnWebCode</p></a>
+            <a href="#"><p>1M views . 6 months ago</p></a>
+          </div>
+        </div>
+        <div class="aside-thumbnails-text">
+          <a href="#"><img class="aside-thumbnails" src="img/thumbnail3.jpg" alt="" /></a>
+          <div>
+            <a href="#"><p class="thumbnails-text-headers"><strong>Learn JavaScript in 12 minutes</strong></p></a>
+            <a href="#"><p class="inside-thumbnails-text">Jake Wright</p></a>
+            <a href="#"><p>707K views . 3 months ago</p></a>
+          </div>
+        </div>
+        <div class="aside-thumbnails-text">
+          <a href="#"><img class="aside-thumbnails" src="img/thumbnail4.jpg" alt="" /></a>
+          <div>
+            <a href="#"><p class="thumbnails-text-headers"><strong>JavaScript Crush Course for Beginners</strong></p></a>
+            <a href="#"><p class="inside-thumbnails-text">Traversy Media</p></a>
+            <a href="#"><p>737K views . 1 year ago</p></a>
+          </div>
+        </div>
+        <div class="aside-thumbnails-text">
+          <a  href="#"><img class="aside-thumbnails" src="img/thumbnail5.jpg" alt="" /></<button>
+          <div>
+            <a href="#"><p class="thumbnails-text-headers"><strong>HTML Crush Course for Absolute Beginners</strong></p></a>
+            <a href="#"><p class="inside-thumbnails-text">Traversy Media</p></a>
+            <a href="#"><p>1.2M views . 7 months ago</p></a>
+          </div>
+        </div>
+      </aside>
+     
+    </main>
+  </body>
+</html>

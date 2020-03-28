@@ -1,7 +1,7 @@
 # Embedding-Project
 This is a minor project to practice working with media and embedding media in html page. In this project, we cloned youtube video player page. We practiced how to embed media in HTML by embedding a youtube video into our cloned youtube page.
 
-![screenshot](./images/screenshot1.png)
+![screenshot](./images/Screenshot1.png)
 
 ## Built With
 
